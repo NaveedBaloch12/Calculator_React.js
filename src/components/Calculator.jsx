@@ -51,7 +51,8 @@ export default function Calculator() {
     {
       setOperation(e.target.value);
       setAnswer(Answer === 0? Number(NumInput) : Answer);
-      HandleOperation();
+      if(NumInput !== 0)
+        HandleOperation();
       setNumInput(0);
     }
     else if(e.target.value === "AC") 

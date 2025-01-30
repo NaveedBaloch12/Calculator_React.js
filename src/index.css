@@ -1,0 +1,35 @@
+.display
+{
+    border: none;
+    text-align: right;
+    display: block;
+}
+
+.mybtn
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    margin: 1px;
+    cursor: pointer;
+    transition: all 0.2s linear;
+    border-radius: 6px;
+    height: 2.5rem;
+    background-color: white;
+}
+.mybtn:hover
+{
+    background-color: rgb(232, 232, 232);
+    color: black;
+}
+
+.opbtn
+{
+    color: rgb(172, 113, 2);
+}
+
+.clrbtn {
+    background-color:  rgb(172, 113, 2);
+    color: white;
+}

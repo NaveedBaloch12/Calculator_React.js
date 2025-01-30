@@ -1,8 +1,13 @@
+.calculator{
+    background-color: rgb(232, 232, 232);
+}
+
 .display
 {
     border: none;
     text-align: right;
     display: block;
+    border-radius: 0px;
 }
 
 .mybtn
@@ -10,7 +15,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid white;
+    border: 1px solid rgba(172, 113, 2, 0.705);
     margin: 1px;
     cursor: pointer;
     transition: all 0.2s linear;
@@ -33,3 +38,4 @@
     background-color:  rgb(172, 113, 2);
     color: white;
 }
+

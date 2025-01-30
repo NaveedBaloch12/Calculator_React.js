@@ -75,13 +75,12 @@ export default function Calculator() {
     }
   }
 
-
   return (
     <div className="d-flex flex-column justify-content-center align-items-center">
         <h2 className="center">CALCULATOR</h2>
-      <div className="calculator d-flex flex-column justify-content-center align-items-center card shadow">
+      <div className="calculator d-flex flex-column justify-content-center align-items-center card shadow p-3 mt-4">
         <input value={Answer} type="text" name="Answer" className="display form-control" readOnly />
-        <input value={NumInput} type="text" className="display form-control" readOnly />
+        <input value={NumInput} type="text" className="display form-control mb-1" readOnly />
 
         <div className="container"></div>
         <div className="row justify-content-between w-100">
